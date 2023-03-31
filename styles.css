@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ----- TEMPORARY STYLES TO DELETE ----- */
+/* *{
+    padding: 0.5rem;
+    border: 1px solid lightslategray;
+} */
+/* ----- TEMPORARY STYLES TO DELETE ----- */
+
+/* html, body {
+    border: none;
+} */
+
+/* .bg-image{
+    border: 2px solid yellow;
+} */
+
+/* h1, h2, h3, h4, h5, h6, p, a {
+    border: 2px solid red;
+} */
+
+/* ----- Utitly Classes ----- */
+
+.tall-50        { min-height: 50vh; }
+.tall-60        { min-height: 60vh; }
+.tall-70        { min-height: 70vh; }
+.tall-80        { min-height: 80vh; }
+.tall-90        { min-height: 90vh; }
+
+.padded         {padding:5%}
+.padded-1       {padding:1rem}
+.padded-2       {padding:2rem}
+
+.bg-featured    {background-color: #1C2A2C;}
+.bg-dark        { background-color: #24282B; }
+
+.light-text     {color:white;}
+.dark-text      {color: #1c2a2c;} 
+
+.left           {text-align: left;}
+.right          {text-align: right;}
+.center         {text-align: center;}
+
+/* ----- TYPOGRAPHY ----- */
+/* 200, 300, 600, 900 (italic 300) | Merriweather 900 */
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+p, a, li {
+    font-weight: 300;
+}
+
+/* ----- BACKGROUND IMAGES ----- */
+
+.bg-image{
+    background-color: #24282b;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('/assets/the-bunker-1.jpg');
+}
+
+.bg-roof{
+    background-image: url('/assets/the-bunker-5.jpg');
+}
+
+.bg-bed{
+    background-image: url('/assets/the-bunker-1.jpg');
+}
+
+.bg-hallway{
+    background-image: url('/assets/the-bunker-3.jpg');
+}
+
+.bg-lounge{
+    background-image: url('/assets/the-bunker-4.jpg');
+}
+
+.bg-lounge-2{
+    background-image: url('/assets/the-bunker-2.jpg');
+}
+
+.bg-sheets{
+    background-image: url('/assets/the-bunker-7.jpg');
+}
+
+.bg-maps{
+    background-image: url('/assets/the-bunker-6.png');
+}
