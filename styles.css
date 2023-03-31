@@ -16,7 +16,7 @@
 } */
 
 /* .bg-image{
-    border: 2px solid yellow;
+    border: .5px solid yellow;
 } */
 
 /* h1, h2, h3, h4, h5, h6, p, a {
@@ -34,6 +34,7 @@
 .padded         {padding:5%}
 .padded-1       {padding:1rem}
 .padded-2       {padding:2rem}
+.padded-large   {padding: 10%;}
 
 .bg-featured    {background-color: #1C2A2C;}
 .bg-dark        { background-color: #24282B; }
@@ -51,9 +52,26 @@
 body            {font-family: 'Catamaran', sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Flamenco', cursive;
     font-weight: 900;
     text-transform: uppercase;
+}
+
+h1 {
+    font-size: 8.5rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.not-bold{
+    font-size: 3rem;
+    font-weight: 300;
 }
 
 p, li {
@@ -63,14 +81,12 @@ p, li {
     margin-bottom: 0.8rem;
 }
 
-p:last-child, 
-p:li            {margin-bottom: 0;}
+p:last-child,p:li {margin-bottom: 0;}
 
 /* ----- BACKGROUND IMAGES ----- */
 
 .bg-image{
     background-color: #24282b;
-    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('/assets/the-bunker-1.jpg');
@@ -78,30 +94,41 @@ p:li            {margin-bottom: 0;}
 
 .bg-roof{
     background-image: url('/assets/the-bunker-5.jpg');
+    background-position: center;
 }
 
 .bg-bed{
     background-image: url('/assets/the-bunker-1.jpg');
+    background-position: center;
 }
 
 .bg-hallway{
     background-image: url('/assets/the-bunker-3.jpg');
+    background-position: 50% 45%;
 }
 
 .bg-lounge{
     background-image: url('/assets/the-bunker-4.jpg');
+    background-position: center;
 }
 
 .bg-lounge-2{
     background-image: url('/assets/the-bunker-2.jpg');
+    background-position: center;
 }
 
 .bg-sheets{
     background-image: url('/assets/the-bunker-7.jpg');
+    background-position: center;
 }
 
 .bg-maps{
     background-image: url('/assets/the-bunker-6.png');
+    background-position: center;
 }
 
-/* .bg-padded {padding: 25%;} */
+.bg-padded {padding: 25%;}
+
+.socials-banner {
+    color: white;
+    background-position: bottom;}
