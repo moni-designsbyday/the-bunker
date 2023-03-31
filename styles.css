@@ -48,19 +48,23 @@
 /* ----- TYPOGRAPHY ----- */
 /* 200, 300, 600, 900 (italic 300) | Merriweather 900 */
 
-body{
-    font-family: 'Barlow', sans-serif;
-}
+body            {font-family: 'Catamaran', sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Yeseva One', cursive;
     font-weight: 900;
     text-transform: uppercase;
 }
 
-p, a, li {
+p, li {
     font-weight: 300;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
 }
+
+p:last-child, 
+p:li            {margin-bottom: 0;}
 
 /* ----- BACKGROUND IMAGES ----- */
 
@@ -99,3 +103,5 @@ p, a, li {
 .bg-maps{
     background-image: url('/assets/the-bunker-6.png');
 }
+
+/* .bg-padded {padding: 25%;} */
