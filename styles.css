@@ -49,9 +49,9 @@
 /* ----- TYPOGRAPHY ----- */
 /* 200, 300, 600, 900 (italic 300) | Merriweather 900 */
 
-body            {font-family: 'Catamaran', sans-serif;}
-
-h1, h2, h3, h4, h5, h6 {
+body {font-family: 'Catamaran', sans-serif;}
+ 
+h1, h2, h3, h4, h5,  {
     font-family: 'Flamenco', cursive;
     font-weight: 900;
     text-transform: uppercase;
@@ -74,14 +74,35 @@ h3{
     font-weight: 300;
 }
 
-p, li {
+h6, p, li {
     font-weight: 300;
     line-height: 1.4;
-    font-size: 1.1rem;
+    font-size: 2rem;
     margin-bottom: 0.8rem;
 }
 
+a {
+    color: inherit;
+}
+
+a:hover{
+    color: #4e91ad;
+}
+
+nav{
+    font-size: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+}
+
 p:last-child,p:li {margin-bottom: 0;}
+
+.fab {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
 
 /* ----- BACKGROUND IMAGES ----- */
 
@@ -129,6 +150,46 @@ p:last-child,p:li {margin-bottom: 0;}
 
 .bg-padded {padding: 25%;}
 
+    /* ----- SOCIAL MEDIA ----- */
+
 .socials-banner {
     color: white;
-    background-position: bottom;}
+    background-position: top;
+}
+
+/* ----- Footer ----- */
+
+footer h2 {
+    font-size: 4rem;
+    line-height: 3rem;
+}
+
+footer p{
+    margin-bottom: 0.2rem;
+    line-height: 0.5;
+}
+
+.subtle{
+    font-size: 0.8rem;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+footer h6{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+footer a {
+    font-size: 1rem;
+}
+
+footer p{
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.email {
+    margin-top: 1rem;
+}
