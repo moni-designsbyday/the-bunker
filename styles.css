@@ -207,5 +207,23 @@ footer p{
 
     .hide-sm { display: none; }
 
-    .flex-flip-sm { flex-direction: column-reverse; }
+    .flex-flip-grid-sm { flex-direction: column-reverse; }
+
+    h1 { font-size: 6rem; }
+
+    h2{ font-size: 2rem;   }
+
+    .not-bold { font-size: 2.5rem;}
+
+    footer h2 { font-size: 3rem; }
+
+    .social-banner {
+        background-image: none; 
+        background-color: #1C2A2C;
+        max-height: 2vh;
+    }
+
+    p{
+        font-size: 1rem;
+    }
 }
