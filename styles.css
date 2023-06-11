@@ -30,6 +30,7 @@
 .tall-70        { min-height: 70vh; }
 .tall-80        { min-height: 80vh; }
 .tall-90        { min-height: 90vh; }
+.tall-100        { min-height: 100vh; }
 
 .padded         {padding:5%}
 .padded-1       {padding:1rem}
@@ -193,6 +194,31 @@ footer p{
 .email {
     margin-top: 1rem;
 }
+
+.explore-page a {
+    display: block;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.explore-page h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.explore-page .featured {
+    background-color: tan;
+    color: #24282B;
+}
+
+.explore-page .featured:hover{
+    background-color: #24282B;
+    color: tan;
+}
+
 
 /* ----- RESPONSIVE ----- */
 
